@@ -1,0 +1,281 @@
+.azeret-mono-normal {
+    font-family: "Azeret Mono" , monospace;
+    font-optical-sizing: auto;
+    font-weight: ,<weight>;
+    font-style: normal;
+}
+/* banner style */
+.banner{
+    text-align: center;
+    background-image: url(../assets/Hero-bg.png);
+    margin: 0;
+}
+.banner-titel{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 68px;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
+.banner-description{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    margin-bottom: 32px;
+}
+.banner-button{
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    border-radius: 8px;  
+    text-decoration: none;
+    background: rgb(13, 19, 33);
+    padding: 21px;
+}
+.banner-button a{
+    text-decoration: none;
+    color: white;
+}
+.banner-content{
+    padding: 26px 221px 41px;
+}
+/* wwd edit */
+.w-w-d{
+    padding: 80px 97px;
+}
+.w-w-d-titel{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center; 
+}
+.w-w-d-description{
+    opacity: 0.7;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center; 
+}
+.main-body{
+    max-width: 1140px;
+    margin: 0px auto;
+    margin-top: 153px;
+    margin-bottom: 153px;
+}
+.w-w-d{
+    margin: auto;
+}
+.main-content-intro{
+    color: rgb(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;  
+}
+.main-content-description{
+    opacity: 0.7;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;   
+}
+.seemore{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center; 
+    padding: 12px 20px 12px 20px;  
+}
+.main-content{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    border: 32px solid #0D132105;
+}
+.main-main-part{
+    flex-direction: row;
+    padding: 48px;
+}
+.main-content-only{
+    padding: 10px 100px 0px 0px;
+}
+/*main next*/
+.inspiration-video{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+
+}
+.main-next{
+    margin-bottom: 151px;
+}
+/*skills*/
+.current-tag{
+    margin-bottom: 48px;
+
+}
+.skill-name{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;  
+}
+.skill-description{
+    opacity: 0.7;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;    
+}
+.ancore{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;  
+    text-decoration-line: underline;  
+
+}.skills-container{
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+    margin-top: 48px;}
+    .skill{
+        padding: 40px;
+    }
+    html{
+        border-radius: 16px;
+        background: rgb(255, 76,30 0.05);
+    }
+    .css{
+        border-radius: 16px;
+        background: rgb(0 76 232 0.05);
+    }
+    .java{
+        border-radius: 16px;
+        background: rgb(255 223 0 0.05);
+        
+    }
+    /*footer*/
+    .footer-titel{
+        color: rgb(255,255,255);
+        font-family: Azeret Mono;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 36px;
+        letter-spacing: 0%;
+        text-align: center;  
+    }
+    .footer-description{
+        opacity: 0.7;
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;    
+    }
+    .last-content{
+        background-image: url(../assets/handshake.jpg);
+        text-align: center;
+        margin: 0;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 64px 48px;
+        border-radius: 16px;
+
+    }
+    .submit{
+        color: rgb(13, 19, 33);
+        font-family: Azeret Mono;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 23px;
+        letter-spacing: 0%;
+        text-align: center; 
+        border-radius: 8px;
+        padding: 6px, 8px;
+
+    }
+    .input{
+        height: 30px;
+        width: 548px;
+        border-radius: 8px;
+        border-color: white;
+        border-style: none;
+        color: rgb(13, 19, 33), 0.4;
+        font-family: Azeret Mono;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19px;
+        letter-spacing: 0%;
+        text-align: center;
+    }
+    .last-content-description{
+        margin-bottom: 24px;
+
+    }
+    /* nav style */
+    nav{
+        display: flex;
+        justify-content: space-between;
+        padding: 32px, 150px;
+
+    }
+    .footyer-style{
+        color: rgb(13, 19, 33);
+        font-family: Azeret Mono;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 23px;
+        letter-spacing: 0%;
+        text-align: center; 
+        background-color: rgb(13, 19, 33, 0.03);  
+    }
+    nav ul li{
+        list-style: none;
+        margin-right: 48px;
+    }
+    nav ul{
+        display: flex;
+    }
